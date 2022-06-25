@@ -16,7 +16,7 @@ export default function Create() {
   const [mining, setMining] = useState(false)
 
 
-  const contractAddress = '0x3211915B1E6aD68DCb358f2247b675f94f382e03';
+  const contractAddress = '0x8d1D7E4afcAed9f8838E1564cc1B9702d291b24E';
   const contractABI = abi.abi;
 
   const handleAccounts = (accounts) => {

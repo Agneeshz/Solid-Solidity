@@ -24,4 +24,14 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
       accounts: [process.env.RINKEBY_PRIVATE_KEY],
     },
   },
+
+
+  // module.exports = {
+  // solidity: "0.8.4",
+  // paths: {
+  //   artifacts: "./src/backend/artifacts",
+  //   sources: "./src/backend/contracts",
+  //   cache: "./src/backend/cache",
+  //   tests: "./src/backend/test"
+  // },
 };
