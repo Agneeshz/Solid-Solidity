@@ -5,6 +5,7 @@ import PrimaryButton from "../components/primary-button";
 import Keyboard from "../components/keyboard";
 import abi from "../utils/Keyboards.json"
 import getKeyboardsContract from "../utils/getKeyboardsContract";
+import { useMetaMaskAccount } from "../components/meta-mask-account-provider";
 
 export default function Create() {
 
