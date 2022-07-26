@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-// import Footer from '../components/footer'
+import Footer from "../components/footer";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -21,7 +21,7 @@ class MyDocument extends Document {
             </h1>
             <Main />
           </main>
-          {/* <Footer /> */}
+          <Footer />
           <NextScript />
         </body>
       </Html>
